@@ -41,3 +41,4 @@ To push code back to Git, remember you need a new SSH key!
 - cat ~/.ssh/id_rsa.pub
 - eval "$(ssh-agent -s)"
 - ssh-add ~/.ssh/id_rsa
+- sudo chown -R codespace .git
