@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Comuter Based Problem Solving',
-  tagline: 'Uing Code to Solve Problems',
+  tagline: 'Using Code to Solve Problems',
   favicon: 'img/cs-logo.png',
 
   // Set the production url of your site here
@@ -72,7 +72,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/',
             label: 'GitHub',
             position: 'right',
           },
@@ -126,10 +126,8 @@ const config = {
       prism: {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
-      },
-      prism: {
         additionalLanguages: ['java'],
-      },      
+      },     
       algolia: {
         // The application ID provided by Algolia
         appId: 'YOUR_APP_ID',
