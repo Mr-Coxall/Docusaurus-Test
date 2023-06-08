@@ -43,3 +43,5 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 To push code back to Git, remember you need a new SSH key!
 - ssh-keygen
 - cat $HOME/.ssh/id_rsa.pub
+- eval "$(ssh-agent -s)"
+- ssh-add ./id_rsa
