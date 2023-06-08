@@ -41,7 +41,9 @@ $ GIT_USER=<Your GitHub username> yarn deploy
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
 
 To push code back to Git, remember you need a new SSH key!
+- git config --global user.name "Mr Coxall"
+- git config --global user.email "mr.coxall@mths.ca"
 - ssh-keygen
-- cat $HOME/.ssh/id_rsa.pub
+- cat ~/.ssh/id_rsa.pub
 - eval "$(ssh-agent -s)"
-- ssh-add ./id_rsa
+- ssh-add ~/.ssh/id_rsa
